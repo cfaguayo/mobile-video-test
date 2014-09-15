@@ -1,0 +1,33 @@
+/* SIDE - PANEL style */
+
+.side-panel
+{
+	z-index: 100;
+	position: fixed;
+	top: 0px;
+	right: -100%;
+	padding: 0px;
+}
+
+.panel-btn
+{
+	position: absolute;
+	top: 0px;
+	left: -30px;
+}
+
+.panel-btn img
+{
+	width: 30px;
+}
+
+.side-panel ul
+{
+	background-color: #000000;
+	border-radius: 5px;
+}
+
+.side-panel li
+{
+	text-align: center;
+}

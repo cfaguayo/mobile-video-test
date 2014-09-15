@@ -1,0 +1,239 @@
+/* Custom File  */
+
+body
+{
+	background-color: #d9d9d9;
+}
+
+.jumbotron
+{
+	padding: 5px 15px 10px 15px;
+	background-color: #ffffff;
+	margin: 0px;
+}
+
+.jumb-text
+{
+	font-weight: bold;
+	text-align: center;
+}
+
+.stack-header
+{
+	margin-top: 15px;
+	margin-bottom: 38%;
+}
+
+.header-text
+{
+	font-weight: bold;
+}
+
+.head-tab
+{
+	background-color: #77952f;
+}
+
+.head-tab img
+{
+	/*width: 60%;*/
+}
+
+.head-tab p
+{
+	padding-top: 5%;
+	color: #ffffff;
+	text-align: center;
+	font-size: 11px;	
+}
+
+.head-tab:active
+{
+	background-color: #96bc3b;	
+}
+
+.square
+{
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+    margin: 0 1.66% 0 1.66%;
+    overflow:hidden;
+}
+
+.square img
+{
+	width: 60%;
+}
+
+.content
+{
+    position:absolute;
+    height:85%; /* = 100% - 2*5% padding */
+    width:100%; /* = 100% - 2*5% padding */
+    padding-top: 15%;
+}
+
+.rectangle
+{
+	float:left;
+    position: relative;
+    width: 47%;
+    padding-bottom : 30%; /* = width for a 4:3 aspect ratio */
+    margin: 0 1% 0 1.66%;
+    overflow:hidden;
+}
+
+.rect-content
+{
+    position:absolute;
+    height:90%; /* = 100% - 2*5% padding */
+    width:100%; /* = 100% - 2*5% padding */
+    padding-top: 10%;
+}
+
+.rectangle img
+{
+	width: 35%;
+}
+
+.table
+{
+    display:table;
+    height:100%;
+    width:100%;
+}
+.table-cell
+{
+    display:table-cell;
+    vertical-align:middle;
+    height:100%;
+    width:100%;
+}
+
+.stack-element
+{
+	background-color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 10px;
+}
+
+.c-logo
+{
+	padding: 10px 0 0 0;
+}
+
+.c-logo img
+{
+	width: 70%;
+}
+
+.c-content
+{
+	padding: 0;
+}
+
+.c-ribbon
+{
+	padding: 0;
+	margin: 5px 0 0 0;
+	display: inline;
+}
+
+.stack-ribbon p
+{
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 17px;
+	margin: 0;
+	text-align: right;
+	vertical-align: middle;	
+	display: inline;
+}
+
+.stack-ribbon
+{
+	float: right;
+	padding: 3px 3px 3px 6px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.stack-ribbon img
+{
+	width: 20px;
+	display: inline;
+	vertical-align: middle;
+	margin-left: 3px;
+	margin-right: 3px; 
+}
+
+.stack-title
+{
+	font-weight: bold;
+	font-size: 13px;
+	margin-bottom: 5px;
+}
+
+.stack-content
+{
+	font-size: 12px;
+}
+
+.big-img
+{
+	width: 100%;
+	max-width: 600px;
+}
+
+.green
+{
+	background-color: #96bc3b;
+}
+
+.blue
+{
+	background-color: #55acee;
+}
+
+.fb-blue
+{
+	background-color: #3b579d;
+}
+
+.stack-footer
+{
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.twin-btns
+{
+	margin-top: 5px;
+}
+
+.twin-btn-1
+{
+	padding-right: 2px;
+}
+
+.twin-btn-2
+{
+	padding-left: 2px;
+}
+
+.modal-img
+{
+	max-height: 50%;
+	margin: 0 auto;
+}
+
+.felled
+{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
