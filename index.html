@@ -13,36 +13,6 @@
 
 <body>
 
-	    <!-- POPUP -->
-        <!-- content  -->
-        <div class="modal fade" id="ModalInterfaz" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> <!--style="width: 350px; height: 500px;"-->
-          <div class="modal-dialog">
-            <div class="modal-content">
-             	<div class="modal-header felled">
-                	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-               		<h5 class="modal-title" id="myModalLabel">Cupón Promocional</h5>
-              	</div>
-
-             	<div class="modal-body felled">
-             		<img src="img/coupon/cupon2.jpg" class="img-responsive img-rounded modal-img">
-             		<form role="form">
-					  <div class="form-group">
-					    <label for="exampleInputEmail1">Ingresa tu mail para recibir el cupón</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingresar mail">
-					  </div>
-					  <button type="button" class="btn btn-default btn-xs">Listo</button>
-					</form>
-              	</div>
-
-             	<div class="modal-footer felled">
-                	<button type="button" class="btn btn-primary btn-xs" data-dismiss="modal">Cerrar</button>
-             	</div>
-            </div>
-          </div>
-        </div>
-        <!-- END POPUP -->
-
-
 	<!--div class="container"-->
 	<div class="jumbotron">
 		<h5 class="jumb-text">¡Mira Todas Las Recompensas!</h5>
@@ -194,6 +164,18 @@
 			</div>
 		</div>
 
+
+
+		<div class="video-mobile">
+			<!-- 16:9 aspect ratio -->
+			<div class="embed-responsive embed-responsive-4by3">
+			  <iframe class="embed-responsive-item" src="http://www.w3schools.com/html/mov_bbb.mp4"></iframe>
+			</div>
+
+		</div>
+
+
+
 		<div class="stack-header">
 			<h5 class="header-text">Más formas de ganar</h5>
 
@@ -275,15 +257,6 @@
 	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
 	<script src="js/side-panel.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-    	jQuery(document).ready(
-	    function()
-	    {
-	    	setTimeout(function()
-	    		{
-	    			jQuery("#ModalInterfaz").modal("show");
-	    		}, 1000);
-	    }); 
-    </script>
+
 </body>
 </html>
