@@ -13,6 +13,42 @@
 
 <body>
 
+
+
+
+		 <!-- POPUP -->
+        <!-- content  -->
+        <div class="modal fade" id="ModalInterfaz" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> <!--style="width: 350px; height: 500px;"-->
+          <div class="modal-dialog">
+            <div class="modal-content">
+             	<div class="modal-header felled">
+                	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+               		<h5 class="modal-title" id="myModalLabel">Cupón Promocional</h5>
+              	</div>
+
+             	<div class="modal-body felled">
+             		<img src="img/coupon/cupon2.jpg" class="img-responsive img-rounded modal-img">
+
+             		<div id="form-container"> 
+             			<form role="form" id="mail_form">
+						  <div class="form-group">
+						    <label for="inputEmail">Ingresa tu mail para recibir el cupón</label>
+						    <input type="email" class="form-control" id="inputEmail" placeholder="Ingresar mail">
+						  </div>
+						  <button type="button" class="btn btn-default btn-xs">Listo</button>
+						</form>
+             		</div>
+             	
+              	</div>
+
+             	<div class="modal-footer felled">
+                	<button type="button" class="btn btn-primary btn-xs" data-dismiss="modal">Cerrar</button>
+             	</div>
+            </div>
+          </div>
+        </div>
+        <!-- END POPUP -->
+
 	<!--div class="container"-->
 	<div class="jumbotron">
 		<h5 class="jumb-text">¡Mira Todas Las Recompensas!</h5>
@@ -239,7 +275,7 @@
 
 	
 
-		<!--  SIDE PANEL ->
+		<!--  SIDE PANEL -->
 		<div class="side-panel col-xs-7 col-lg-3">
 			<ul class="nav nav-pills nav-stacked">
 	            <li><a href="#side-panel">Acción 1</a></li>
@@ -251,7 +287,7 @@
 			<div class="panel-btn">
 				<img src="img/btns/menu.png" id="side-btn-img">
 			</div>
-		</div-->
+		</div>
 
 			
 	
@@ -260,6 +296,17 @@
 	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
 	<script src="js/side-panel.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+     <script type="text/javascript">
+    	jQuery(document).ready(
+	    function()
+	    {
+	    	setTimeout(function()
+	    		{
+	    			jQuery("#ModalInterfaz").modal("show");
+	    		}, 1000);
+	    }); 
+    </script>
 
 </body>
 </html>
